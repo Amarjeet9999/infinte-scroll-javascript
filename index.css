@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(58, 56, 53);
+}
+
+.root {
+  width: 100%;
+  margin-top: 60px;
+  height: 620px;
+}
+.h2 {
+  font-size: 40px;
+  margin: auto;
+  color: bisque;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 700px;
+  height: 100%;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(209, 162, 190),
+    rgb(194, 216, 75)
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  margin-top: 15px;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search > form {
+  display: flex;
+  align-items: center;
+  background-color: wheat;
+}
+.search > form input {
+  height: 40px;
+  width: 400px;
+  outline: none;
+  border: none;
+  background-color: wheat;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.search > form span {
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 25px;
+  height: 100%;
+  overflow: scroll;
+  background-color: transparent;
+
+  margin-bottom: 10px;
+}
+
+.results {
+  background-color: transparent;
+  margin: 25px 50px;
+}
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /* height: 150px; */
+  background-color: inherit;
+}
+
+.number {
+  height: 148px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 156, 194);
+  margin-right: 10px;
+}
+.number h1 {
+  background-color: transparent;
+}
+
+.cards {
+  height: 150px;
+  width: 100%;
+  display: flex;
+}
+
+.cards > .imgDiv {
+  padding: 10px 10px;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.cards > .imgDiv > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.detailsDiv {
+  margin: 10px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0px;
+}
+.detailsDiv b {
+  color: rgb(5, 163, 31);
+  font-size: 30px;
+  margin: 0 15px;
+  font-weight: 800;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+}
